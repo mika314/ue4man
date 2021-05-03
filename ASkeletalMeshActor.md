@@ -10,7 +10,7 @@
 # Template
 
 ## Header
-```
+```c++
 #pragma once
 
 #include <Animation/SkeletalMeshActor.h>
@@ -28,7 +28,7 @@ public:
 ```
 ## Source
 
-```
+```c++
 #include "new_class.h"
 
 ANewClass::ANewClass()

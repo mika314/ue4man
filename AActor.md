@@ -8,6 +8,6 @@
 
 # Include
 
-```
+```c++
 #include <GameFramework/Actor.h>
 ```
