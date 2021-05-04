@@ -2,12 +2,23 @@
 % Mika Pi
 % May 2021
 
-# Description
+# NAME
 
-**AActor**
+**AActor** -
+
+# DESCRIPTION
+TODO
 
 # Include
 
 ```c++
 #include <GameFramework/Actor.h>
+```
+
+# Userful Function
+```C++
+auto loc = GetActorLocation();
+```
+```C++
+auto rot = GetActorRotation();
 ```

@@ -2,9 +2,20 @@
 % Mika Pi
 % May 2021
 
+
+# NAME
+
+**ASkeletalMeshActor** -
+
+# DESCRIPTION
+TODO
+
 # Include
 
 `#include <Animation/SkeletalMeshActor.h>`
+
+# Useful Functions
+- `GetSkeletalMeshComponent()`
 
 
 # Template
