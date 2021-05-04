@@ -1,2 +1,4 @@
 *~
 .out/
+.coddle/
+/gen_make/gen_make

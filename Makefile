@@ -1,13 +1,6 @@
-
-
-ALL: .out/AActor.1 .out/ASkeletalMeshActor.1
-	echo done
-.out/AActor.1: AActor.md
+ALL: FORCE
 	mkdir -p .out
-	pandoc AActor.md -s -t man -o .out/AActor.1
-.out/ASkeletalMeshActor.1: ASkeletalMeshActor.md
-	mkdir -p .out
-	pandoc ASkeletalMeshActor.md -s -t man -o .out/ASkeletalMeshActor.1
+	cd gen_make; coddle; cd ..; gen_make/gen_make > .out/man.make; $(MAKE) -f .out/man.make
 install: FORCE ALL
 	sudo ./install.sh
 
